@@ -1,8 +1,8 @@
 wifi.sta.sethostname("uopNodeMCU")
 wifi.setmode(wifi.STATION)
 station_cfg={}
-station_cfg.ssid="VM3980916" 
-station_cfg.pwd="xcmz5qgVbjsh"
+station_cfg.ssid="Wifi Name" 
+station_cfg.pwd="Password"
 station_cfg.save=true
 wifi.sta.config(station_cfg)
 wifi.sta.connect()
